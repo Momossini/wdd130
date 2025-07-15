@@ -1,5 +1,5 @@
 nav {
-    background: darkblue;
+    background-color: darkblue;
     padding: 10px
 }
 
@@ -32,6 +32,7 @@ main {
 aside {
     width: 20rem;
     border: 1px solid black;
+    margin: 0;
     padding: 1rem;
     background-color: hsl(33, 100%, 88%);
     color: #000000;
