@@ -1,8 +1,8 @@
 :root{
     --primary-color: #35605A;
     --secondary-color: #D8E4FF;
-    --accent1-color: #31E981;
-    --accent2-color: #00120B;
+    --accent1-color: #00120B;
+    --accent2-color: #31E981;
     --heading-font: "Waterfall", cursive;
     --body-font: "Roboto", sans-serif;
 }
