@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Akwé Whitewater Rafting</title>
-    <meta name="description" content="This is the about page for the whitewater rafting Website">
+    <meta name="description" content="Learn about Akwé Whitewater Rafting Company's history, our mission to provide thrilling adventures, and discover the exciting rafting experiences that await you.">
     <link rel="stylesheet" href="styles/rafting.css">
     <meta name="author" content="Moïse Marc-Aurel MASSAMBA-DILUEKI">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,46 +13,82 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-        <img src="images/z-raftingbw.png" alt="Akwé Whitewater Rafting Company Logo">
-        <nav>
+    <header class="site-header">
+        <img src="images/z-raftingbw.png" alt="Akwé Whitewater Rafting Company Logo" class="logo">
+        <h1 class="site-title">Akwé Whitewater Rafting</h1>
+        <nav class="primary-nav">
             <a href="index.html">Home</a>
-            <a href="about.html"> About Us</a>
+            <a href="about.html" class="current">About Us</a>
             <a href="trips.html">Trips</a>
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
+    
     <main>
-        <div class="hero">
-            <img src="images/rafting60_1024.jpg" alt="People which are playing on water">
-            <article>
-              <h1>Akwé Whitewater Rafting</h1>
-                <img src="images/rafting59_600.jpg" alt="Happy client">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum blanditiis molestiae exercitationem ipsa debitis sapiente nihil obcaecati eligendi accusamus doloremque, error quidem commodi. Molestias vel doloremque earum iusto similique itaque?</p>
+        <section class="hero-section">
+            <img src="images/rafting60_1024.jpg" alt="Exciting whitewater rafting adventure with multiple rafters navigating through rapids" class="hero-image">
+            <article class="hero-content">
+                <h2>Experience the Ultimate Whitewater Adventure</h2>
+                <img src="images/rafting59_600.jpg" alt="Smiling happy client enjoying rafting experience" class="happy-client">
+                <p>At Akwé Whitewater Rafting, we believe that life's greatest moments happen when you step outside your comfort zone. Our experienced guides and state-of-the-art equipment ensure that every adventure is both thrilling and safe, creating memories that will last a lifetime.</p>
             </article>
-        </div>
-        <section>
-            <h2>History</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo saepe in a accusamus minima, eaque ea magni, quod explicabo dolores numquam quia minus id laborum voluptatibus aut rem eum soluta!</p>
         </section>
-        <section>
+        
+        <section class="history-section">
+            <h2>Our Story</h2>
+            <p>Founded in 1995 by adventure enthusiasts Marc and Sarah Thompson, Akwé Whitewater Rafting began as a small family operation with just two rafts and a dream to share the beauty of Congo's pristine waterways. Named "Akwé" after the local word for "water spirit," our company has grown into the region's premier rafting outfitter while maintaining our commitment to environmental stewardship and authentic experiences.</p>
+            
+            <p>Over nearly three decades, we've guided thousands of adventurers through some of the most spectacular rapids in Central Africa. Our team of certified guides brings together decades of experience, local knowledge, and an unwavering passion for both safety and excitement. We've weathered economic challenges, expanded our fleet to include specialized equipment for all skill levels, and built lasting partnerships with local communities.</p>
+            
+            <p>Today, Akwé Whitewater Rafting stands as a testament to the power of pursuing your passion while respecting the natural world that makes our adventures possible. Every trip we offer reflects our core values: safety first, environmental responsibility, and creating transformative experiences that connect people with the raw beauty of untamed rivers.</p>
+        </section>
+        
+        <section class="adventure-section">
             <h2>Adventure Awaits You!</h2>
-            <img src="images/rafting65_600.jpg" alt="adventure illustration 1">
-            <img src="images/rafting58_600.jpg" alt="adventure illustration 2">
-            <img src="images/rafting43_600.jpg" alt="Adventure illustration 3">
-            <img src="images/rafting22_600.jpg" alt="Adventure illustration 4">
-            <img src="images/rafting4_600.jpg" alt="Adventure illustration 5">
+            <div class="adventure-gallery">
+                <figure class="adventure-item">
+                    <img src="images/rafting65_600.jpg" alt="Team of rafters navigating through challenging Class IV rapids">
+                    <figcaption>Class IV Rapids - The Ultimate Challenge</figcaption>
+                </figure>
+                
+                <figure class="adventure-item">
+                    <img src="images/rafting58_600.jpg" alt="Peaceful family rafting trip through scenic calm waters">
+                    <figcaption>Family Float Trips - Perfect for All Ages</figcaption>
+                </figure>
+                
+                <figure class="adventure-item">
+                    <img src="images/rafting43_600.jpg" alt="Adventure group celebrating successful navigation of intense rapids">
+                    <figcaption>Corporate Team Building Adventures</figcaption>
+                </figure>
+                
+                <figure class="adventure-item">
+                    <img src="images/rafting22_600.jpg" alt="Sunset rafting expedition with breathtaking mountain backdrop">
+                    <figcaption>Sunset Expeditions - Magical Evening Journeys</figcaption>
+                </figure>
+                
+                <figure class="adventure-item">
+                    <img src="images/rafting4_600.jpg" alt="Multi-day camping and rafting adventure in wilderness setting">
+                    <figcaption>Multi-Day Wilderness Expeditions</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
-    <footer>
-        <nav class="socialmedia">
-            <a href="https://facebook.com" target="_blank"><img width="20" height="20" src="images/fb-icon.svg" alt="facebook logo"></a>
-            <a href="https://x.com" target="_blank"><img width="20" height="20" src="images/x-icon.svg" alt="X logo"></a>
-            <a href="https://instagram.com" target="_blank"><img width="20" height="20" src="images/instagram-icon.svg" alt="Instagram logo"></a>
-        </nav>
-        <p>
+    
+    <footer class="site-footer">
+        <p class="copyright">
             &copy;2025 | Akwé Whitewater Rafting | Moïse Marc-Aurel MASSAMBA-DILUEKI
         </p>
+        <nav class="social-nav">
+            <a href="https://facebook.com" target="_blank" aria-label="Visit our Facebook page">
+                <img src="images/fb-icon.svg" alt="Facebook" width="32" height="32">
+            </a>
+            <a href="https://x.com" target="_blank" aria-label="Follow us on X (Twitter)">
+                <img src="images/x-icon.svg" alt="X (Twitter)" width="32" height="32">
+            </a>
+            <a href="https://instagram.com" target="_blank" aria-label="Follow us on Instagram">
+                <img src="images/instagram-icon.svg" alt="Instagram" width="32" height="32">
+            </a>
+        </nav>
     </footer>
   </body>
 </html>
